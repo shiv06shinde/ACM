@@ -1,0 +1,114 @@
+#hexback {
+  background: url('/images/bg4.png') no-repeat center center fixed;
+  /* background-position:center; */
+  /* background-repeat: no-repeat; */
+  background-size:cover;
+  /* background-origin: border-box; */
+}
+#events {
+  background: url('/images/fbg1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  border-top: 1px solid rgba(0,0,0,0.4);
+  border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+.responsive {
+  width:100%;
+  height:auto;
+  max-height:100px;
+}
+.btn-style-yellow {
+  padding: 5px 30px;
+  background-color: #FFB904;
+  color:white;
+  font-size:1.2rem;
+}
+mark {
+  padding:0 0.1em;
+  display: inline-block;
+   height: 0.4em;
+   line-height: 5px;
+   background-color: rgba(0,0,255,0.3);
+
+}
+.box {
+  background-image: url('/images/background.jpg');
+}
+.boxes {
+  overflow-x: scroll;
+}
+.boxes::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.boxes {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+    .one {
+      height:20rem;
+    }
+    .two , .three {
+      height:9rem;
+
+    }
+    .two {
+      margin-bottom:2rem;
+    }
+    .three {
+      /* margin-top:1rem; */
+    }
+    .four {
+      height:12rem;
+      margin-bottom:2rem;
+    }
+    .five {
+      height: 6rem;
+    }
+    .left-button {
+      height:4rem;
+      width:4rem;
+      position:absolute;
+      z-index: 10;
+      margin-top: 8rem;
+      margin-left:0.1rem !important;
+      border-radius: 100%;
+      background-color: rgba(0,0,0,0.3);
+      box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.5);
+    }
+    .right-button {
+      height:4rem;
+      width:4rem;
+      position: absolute;
+      /* position:fixed; */
+      z-index: 10;
+      margin-top: 8rem;
+      margin-left:80% !important;
+      border-radius: 100%;
+      background-color: rgba(0,0,0,0.3);
+      box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.5);
+      float: right;
+    }
+    .ver-center {
+      margin-top: 30vh;
+    }
+
+  .team-members {
+    height:10rem;
+    width:10rem;
+    margin-left: 3rem;
+    border-radius: 100%;
+    border:1px solid black;
+    margin-bottom: 1rem;
+  }
+  .team-convener {
+    height:12rem;
+    width:12rem;
+    /* margin-left: 3rem; */
+    border-radius: 100%;
+    border:1px solid black;
+    margin-bottom: 1rem;
+  }

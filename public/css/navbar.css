@@ -1,0 +1,28 @@
+.main {
+  background-image: url('/images/background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-text {
+  padding-top: 40vh;
+  padding-bottom: 60vh;
+  color: white;
+  background-color: rgba(0,0,0,0.6);
+}
+.opaque {
+  background-color: rgba(0,0,0,1);
+}
+nav.navbar {
+  -webkit-transition: all 0.4s ease;
+transition: all 0.4s ease;
+}
+.nav-item {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin: 0 7px;
+}
+.active , .nav-item:hover{
+  color:white;
+  border-bottom: 2px solid #00F0FF;
+}

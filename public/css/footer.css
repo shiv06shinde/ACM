@@ -1,0 +1,12 @@
+.top-footer-bar {
+  height:3rem;
+  background-color: rgba(0,255,0,0.3);
+}
+.main-footer {
+  height:10rem;
+  background-color: #1d1d1d;
+}
+.bottom-footer-bar {
+  height:3rem;
+  background-color: rgba(0,0,0,0.7);
+}
